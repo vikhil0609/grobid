@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.data.PersonDeduplicationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:21" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.049">
+  <properties/>
+  <testcase name="testDeduplication0" classname="org.grobid.core.data.PersonDeduplicationTest" time="0.037"/>
+  <testcase name="testDeduplication1" classname="org.grobid.core.data.PersonDeduplicationTest" time="0.0"/>
+  <testcase name="testDeduplication2" classname="org.grobid.core.data.PersonDeduplicationTest" time="0.0"/>
+  <testcase name="testDeduplication3" classname="org.grobid.core.data.PersonDeduplicationTest" time="0.0"/>
+  <testcase name="testDeduplication4" classname="org.grobid.core.data.PersonDeduplicationTest" time="0.001"/>
+  <testcase name="testDeduplication5" classname="org.grobid.core.data.PersonDeduplicationTest" time="0.001"/>
+  <testcase name="testDeduplication6" classname="org.grobid.core.data.PersonDeduplicationTest" time="0.007"/>
+  <testcase name="testDeduplication7" classname="org.grobid.core.data.PersonDeduplicationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

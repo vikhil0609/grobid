@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.trainer.evaluation.ModelStatsTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:05:51" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.109">
+  <properties/>
+  <testcase name="testFieldLevelStats_allGood" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.063"/>
+  <testcase name="testFieldLevelStats4_mixed" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.0"/>
+  <testcase name="testFieldLevelStats_realCase" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.039"/>
+  <testcase name="testTokenLevelStats3_realCase" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.002"/>
+  <testcase name="testFieldLevelStats_mixed" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.0"/>
+  <testcase name="testFieldLevelStats2_mixed" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.0"/>
+  <testcase name="testInstantiation_realCase" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.0"/>
+  <testcase name="testFieldLevelStats_noMatch" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.0"/>
+  <testcase name="testFieldLevelStats3_mixed" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.0"/>
+  <testcase name="test_empty" classname="org.grobid.trainer.evaluation.ModelStatsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

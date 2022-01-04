@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.service.util.GrobidRestUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:05:49" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.116">
+  <properties/>
+  <testcase name="getAnnotationFor_validType_shouldWork" classname="org.grobid.service.util.GrobidRestUtilsTest" time="0.115"/>
+  <testcase name="getAnnotationFor_invalidType_shouldWork" classname="org.grobid.service.util.GrobidRestUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

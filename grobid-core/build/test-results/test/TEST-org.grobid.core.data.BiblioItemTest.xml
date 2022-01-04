@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.data.BiblioItemTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:19" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.968">
+  <properties/>
+  <testcase name="shouldGenerateRawAffiliationTextIfEnabled" classname="org.grobid.core.data.BiblioItemTest" time="0.912"/>
+  <testcase name="testCleanDOIPrefix2_shouldRemovePrefix" classname="org.grobid.core.data.BiblioItemTest" time="0.007"/>
+  <testcase name="shouldGenerateRawAffiliationTextForFailAffiliationsIfEnabled" classname="org.grobid.core.data.BiblioItemTest" time="0.004"/>
+  <testcase name="injectIdentifiers" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="testCleanDOIxPrefix1_shouldRemovePrefix" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="testCleanDOI_removeURL_file" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="testCleanDOI_removeURL_http" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="correct_2authors_shouldMatchFullName_shouldKeepAffiliation" classname="org.grobid.core.data.BiblioItemTest" time="0.004"/>
+  <testcase name="testCleanDOI_diactric" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="testCleanDOI_removeURL_https" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="correct_2authors_initial_shouldUpdateAuthor" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="shouldNotGenerateRawAffiliationTextIfNotEnabled" classname="org.grobid.core.data.BiblioItemTest" time="0.005"/>
+  <testcase name="shouldIncludeEscapedMarkerInRawAffiliationText" classname="org.grobid.core.data.BiblioItemTest" time="0.007"/>
+  <testcase name="correct_empty_shouldNotFail" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="testCleanDOI_cleanCommonExtractionPatterns" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="shouldIncludeMarkerInRawAffiliationText" classname="org.grobid.core.data.BiblioItemTest" time="0.008"/>
+  <testcase name="correct_2authors_shouldMatchFullName_shouldUpdateAffiliation" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="correct_1author_shouldWork" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <testcase name="shouldEscapeIdentifiers" classname="org.grobid.core.data.BiblioItemTest" time="0.012"/>
+  <testcase name="correct_2authors_initial_2_shouldUpdateAuthor" classname="org.grobid.core.data.BiblioItemTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:30:19 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:30:19 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:19 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:30:19 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:19 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+Dec 30, 2021 2:30:19 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading external native sequence labelling library
+Dec 30, 2021 2:30:19 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading Wapiti native library...
+Dec 30, 2021 2:30:19 PM org.grobid.core.main.LibraryLoader load
+INFO: Native library for sequence labelling loaded
+Dec 30, 2021 2:30:19 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: Initiating dictionary
+Dec 30, 2021 2:30:19 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: End of Initialization of dictionary
+Dec 30, 2021 2:30:19 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: Initiating names
+Dec 30, 2021 2:30:19 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: End of initialization of names
+Dec 30, 2021 2:30:20 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: Initiating country codes
+Dec 30, 2021 2:30:20 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: End of initialization of country codes
+]]></system-err>
+</testsuite>

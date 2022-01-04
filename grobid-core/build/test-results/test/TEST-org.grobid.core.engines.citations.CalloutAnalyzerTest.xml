@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.engines.citations.CalloutAnalyzerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:45" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.074">
+  <properties/>
+  <testcase name="testGetCalloutCatastrophicBacktrackingFail" classname="org.grobid.core.engines.citations.CalloutAnalyzerTest" time="0.068"/>
+  <testcase name="testGetCalloutTypeTextFail" classname="org.grobid.core.engines.citations.CalloutAnalyzerTest" time="0.0"/>
+  <testcase name="testGetCalloutTypeText" classname="org.grobid.core.engines.citations.CalloutAnalyzerTest" time="0.002"/>
+  <testcase name="testGetCalloutCatastrophicBacktracking" classname="org.grobid.core.engines.citations.CalloutAnalyzerTest" time="0.001"/>
+  <testcase name="testGetCalloutTypeNumber" classname="org.grobid.core.engines.citations.CalloutAnalyzerTest" time="0.0"/>
+  <testcase name="testGetCalloutTypeNumberFail" classname="org.grobid.core.engines.citations.CalloutAnalyzerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

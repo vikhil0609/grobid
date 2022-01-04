@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.utilities.UnicodeUtilTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-12-30T09:02:14" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.0">
+  <properties/>
+  <testcase name="testNormaliseToken" classname="org.grobid.core.utilities.UnicodeUtilTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

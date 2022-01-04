@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.data.PersonNormalisationTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:16" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.04">
+  <properties/>
+  <testcase name="testAgglitinatedInitialsNormalisation1" classname="org.grobid.core.data.PersonNormalisationTest" time="0.035"/>
+  <testcase name="testCrossRefNameNormlisation10" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation11" classname="org.grobid.core.data.PersonNormalisationTest" time="0.001"/>
+  <testcase name="testCrossRefNameNormlisation12" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation1" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation2" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation3" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation4" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation5" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation6" classname="org.grobid.core.data.PersonNormalisationTest" time="0.001"/>
+  <testcase name="testCrossRefNameNormlisation7" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation8" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <testcase name="testCrossRefNameNormlisation9" classname="org.grobid.core.data.PersonNormalisationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

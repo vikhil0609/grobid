@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.lang.LanguageTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:32" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.006">
+  <properties/>
+  <testcase name="testLanguagesWithInvalidLang_2chars_shouldThrowException" classname="org.grobid.core.lang.LanguageTest" time="0.003"/>
+  <testcase name="testLanguagesAvailableInLangdetect" classname="org.grobid.core.lang.LanguageTest" time="0.0"/>
+  <testcase name="testLanguagesWithNullLang_shouldThrowException" classname="org.grobid.core.lang.LanguageTest" time="0.001"/>
+  <testcase name="testLanguagesWithInvalidLang_shouldThrowException" classname="org.grobid.core.lang.LanguageTest" time="0.001"/>
+  <testcase name="testLanguagesWithInvalidLang_3chars_shouldThrowException" classname="org.grobid.core.lang.LanguageTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.trainer.AbstractTrainerIntegrationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:05:54" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.925">
+  <properties/>
+  <testcase name="testLoadAndShuffle_shouldWork" classname="org.grobid.trainer.AbstractTrainerIntegrationTest" time="0.905"/>
+  <testcase name="testSplitNFold_n10_shouldThrowException" classname="org.grobid.trainer.AbstractTrainerIntegrationTest" time="0.0"/>
+  <testcase name="testSplitNFold_n3_shouldWork" classname="org.grobid.trainer.AbstractTrainerIntegrationTest" time="0.018"/>
+  <testcase name="testLoad_shouldWork" classname="org.grobid.trainer.AbstractTrainerIntegrationTest" time="0.001"/>
+  <system-out><![CDATA[[line 0 example 4
+line 1 example 4
+line 2 example 4
+line 3 example 4
+line 4 example 4
+line 5 example 4, line 0 example 5
+line 1 example 5
+line 2 example 5
+line 3 example 5
+line 4 example 5
+line 5 example 5, line 0 example 6
+line 1 example 6, line 0 example 7
+line 1 example 7, line 0 example 8
+line 1 example 8
+line 2 example 8, line 0 example 9
+line 1 example 9
+line 2 example 9, line 0 example 10
+line 1 example 10
+line 2 example 10]
+[line 0 example 1
+line 1 example 1
+line 2 example 1, line 0 example 2
+line 1 example 2
+line 2 example 2
+line 3 example 2, line 0 example 3
+line 1 example 3]
+[line 0 example 1
+line 1 example 1
+line 2 example 1, line 0 example 2
+line 1 example 2
+line 2 example 2
+line 3 example 2, line 0 example 3
+line 1 example 3, line 0 example 7
+line 1 example 7, line 0 example 8
+line 1 example 8
+line 2 example 8, line 0 example 9
+line 1 example 9
+line 2 example 9, line 0 example 10
+line 1 example 10
+line 2 example 10]
+[line 0 example 4
+line 1 example 4
+line 2 example 4
+line 3 example 4
+line 4 example 4
+line 5 example 4, line 0 example 5
+line 1 example 5
+line 2 example 5
+line 3 example 5
+line 4 example 5
+line 5 example 5, line 0 example 6
+line 1 example 6]
+[line 0 example 1
+line 1 example 1
+line 2 example 1, line 0 example 2
+line 1 example 2
+line 2 example 2
+line 3 example 2, line 0 example 3
+line 1 example 3, line 0 example 4
+line 1 example 4
+line 2 example 4
+line 3 example 4
+line 4 example 4
+line 5 example 4, line 0 example 5
+line 1 example 5
+line 2 example 5
+line 3 example 5
+line 4 example 5
+line 5 example 5, line 0 example 6
+line 1 example 6]
+[line 0 example 7
+line 1 example 7, line 0 example 8
+line 1 example 8
+line 2 example 8, line 0 example 9
+line 1 example 9
+line 2 example 9, line 0 example 10
+line 1 example 10
+line 2 example 10]
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

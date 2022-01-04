@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:35" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.041">
+  <properties/>
+  <testcase name="testIsBeginningOfEntity_false" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.035"/>
+  <testcase name="testGetPlainLabel_nullValue" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.0"/>
+  <testcase name="testIsBeginningOfEntity_false2" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.0"/>
+  <testcase name="testGetPlainLabel_startingValue" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.004"/>
+  <testcase name="testIsBeginningOfEntity_B_false2" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.0"/>
+  <testcase name="testGetPlainLabel_I_startingValue" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.0"/>
+  <testcase name="testGetPlainLabel_normalValue" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.0"/>
+  <testcase name="testIsBeginningOfIOBEntity_B_true" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.0"/>
+  <testcase name="testIsBeginningOfEntity_true" classname="org.grobid.core.engines.tagging.GenericTaggerUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

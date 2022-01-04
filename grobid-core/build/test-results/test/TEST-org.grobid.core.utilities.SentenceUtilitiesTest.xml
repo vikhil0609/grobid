@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.utilities.SentenceUtilitiesTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:02:20" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="2.148">
+  <properties/>
+  <testcase name="testNullText" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="2.06"/>
+  <testcase name="testEmptyText" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.033"/>
+  <testcase name="testOneSentenceText" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.009"/>
+  <testcase name="testTwoSentencesText" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.003"/>
+  <testcase name="testTwoSentencesTextWithUselessForbidden" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.005"/>
+  <testcase name="testTwoSentencesTextWithUsefullForbidden" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.005"/>
+  <testcase name="testCorrectSegmentation_shouldNotCancelSegmentation" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.007"/>
+  <testcase name="testCorrectSegmentation_shouldNotCancelSegmentation2" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.005"/>
+  <testcase name="testCorrectSegmentation_shouldCancelWrongSegmentation" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.004"/>
+  <testcase name="testCorrectSegmentation_shouldCancelWrongSegmentation2" classname="org.grobid.core.utilities.SentenceUtilitiesTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:32:21 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:32:21 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:32:21 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:32:21 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:32:21 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+]]></system-err>
+</testsuite>

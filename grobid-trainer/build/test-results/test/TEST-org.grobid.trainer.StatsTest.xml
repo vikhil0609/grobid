@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.trainer.StatsTest" tests="16" skipped="1" failures="0" errors="0" timestamp="2021-12-30T09:05:50" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.018">
+  <properties/>
+  <testcase name="testMacroAvgRecall_shouldWork" classname="org.grobid.trainer.StatsTest" time="0.01"/>
+  <testcase name="testMacroAvgF0_shouldWork" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testRecall_fullMatch" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testMicroAvgPrecision_shouldWork" classname="org.grobid.trainer.StatsTest" time="0.001"/>
+  <testcase name="testMicroAvgF0_shouldWork" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testPrecision_fullMatch" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testPrecision_missingMatch" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testPrecision_noMatch" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testMacroAvgPrecision_shouldWork" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testRecall_oneOverFour" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testRecall_partialMatch" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testPrecision_2wronglyRecognised" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testMicroMacroAveragePrecision" classname="org.grobid.trainer.StatsTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testMicroMacroAverageMeasures_realTest" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testMicroAvgRecall_shouldWork" classname="org.grobid.trainer.StatsTest" time="0.0"/>
+  <testcase name="testRecall_noMatch" classname="org.grobid.trainer.StatsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

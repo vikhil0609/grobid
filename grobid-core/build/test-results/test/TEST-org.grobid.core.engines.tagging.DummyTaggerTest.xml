@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.engines.tagging.DummyTaggerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:38" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.025">
+  <properties/>
+  <testcase name="testDummyTagger" classname="org.grobid.core.engines.tagging.DummyTaggerTest" time="0.024"/>
+  <testcase name="testWrongModelInitialisation_shouldThrowException" classname="org.grobid.core.engines.tagging.DummyTaggerTest" time="0.001"/>
+  <testcase name="testDummyTagger_shouldReturnDummyLabel" classname="org.grobid.core.engines.tagging.DummyTaggerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:30:37 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:30:37 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:37 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:30:37 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:37 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+]]></system-err>
+</testsuite>

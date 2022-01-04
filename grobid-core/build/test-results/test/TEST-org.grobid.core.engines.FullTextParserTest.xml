@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.engines.FullTextParserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:58" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="2.428">
+  <properties/>
+  <testcase name="testProcessTrainingDataFigures_single_figure" classname="org.grobid.core.engines.FullTextParserTest" time="2.311"/>
+  <testcase name="testProcessTrainingDataTable_multiple_tables" classname="org.grobid.core.engines.FullTextParserTest" time="0.112"/>
+  <testcase name="testProcessTrainingDataFigures_multiple_figures" classname="org.grobid.core.engines.FullTextParserTest" time="0.003"/>
+  <testcase name="testProcessTrainingDataTables_single_table" classname="org.grobid.core.engines.FullTextParserTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:30:57 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading external native sequence labelling library
+Dec 30, 2021 2:30:57 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:30:57 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:57 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:30:57 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:57 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+Dec 30, 2021 2:30:58 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading Wapiti native library...
+Dec 30, 2021 2:30:58 PM org.grobid.core.main.LibraryLoader load
+INFO: Native library for sequence labelling loaded
+Dec 30, 2021 2:30:58 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/fulltext/model.wapiti (size: 26707735)
+Dec 30, 2021 2:31:00 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/figure/model.wapiti (size: 422671)
+Dec 30, 2021 2:31:00 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/table/model.wapiti (size: 1427222)
+]]></system-err>
+</testsuite>

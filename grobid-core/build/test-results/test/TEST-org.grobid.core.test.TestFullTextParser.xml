@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.test.TestFullTextParser" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:03:02" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="42.461">
+  <properties/>
+  <testcase name="testFullTextParser_1" classname="org.grobid.core.test.TestFullTextParser" time="34.961"/>
+  <testcase name="testFullTextParser_2" classname="org.grobid.core.test.TestFullTextParser" time="0.507"/>
+  <testcase name="testFullTextParser_3" classname="org.grobid.core.test.TestFullTextParser" time="5.058"/>
+  <testcase name="testFullTextParser_4" classname="org.grobid.core.test.TestFullTextParser" time="1.074"/>
+  <testcase name="testFullTextParser_5" classname="org.grobid.core.test.TestFullTextParser" time="0.485"/>
+  <testcase name="testFullTextParser_6" classname="org.grobid.core.test.TestFullTextParser" time="0.376"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:33:01 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:33:01 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:33:01 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:33:01 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:33:01 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+Dec 30, 2021 2:33:01 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading external native sequence labelling library
+Dec 30, 2021 2:33:01 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading Wapiti native library...
+Dec 30, 2021 2:33:01 PM org.grobid.core.main.LibraryLoader load
+INFO: Native library for sequence labelling loaded
+Dec 30, 2021 2:33:01 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: Initiating dictionary
+Dec 30, 2021 2:33:01 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: End of Initialization of dictionary
+Dec 30, 2021 2:33:01 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: Initiating names
+Dec 30, 2021 2:33:01 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: End of initialization of names
+Dec 30, 2021 2:33:02 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: Initiating country codes
+Dec 30, 2021 2:33:02 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: End of initialization of country codes
+Dec 30, 2021 2:33:02 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/fulltext/model.wapiti (size: 26707735)
+Dec 30, 2021 2:33:05 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/segmentation/model.wapiti (size: 31133177)
+Dec 30, 2021 2:33:09 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/header/model.wapiti (size: 17134253)
+Dec 30, 2021 2:33:28 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/name/header/model.wapiti (size: 2524527)
+Dec 30, 2021 2:33:28 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/name/citation/model.wapiti (size: 440148)
+Dec 30, 2021 2:33:28 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/affiliation-address/model.wapiti (size: 2766570)
+Dec 30, 2021 2:33:30 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/citation/model.wapiti (size: 16865234)
+Dec 30, 2021 2:33:32 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/reference-segmenter/model.wapiti (size: 4921245)
+Dec 30, 2021 2:33:35 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/date/model.wapiti (size: 102435)
+Dec 30, 2021 2:33:36 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/figure/model.wapiti (size: 422671)
+Dec 30, 2021 2:33:36 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/table/model.wapiti (size: 1427222)
+Dec 30, 2021 2:33:42 PM org.grobid.core.document.Document assignGraphicObjectsToFigures
+INFO: Standalone figure on page: 8
+Dec 30, 2021 2:33:42 PM org.grobid.core.document.Document assignGraphicObjectsToFigures
+INFO: Standalone figure on page: 26
+Dec 30, 2021 2:33:42 PM org.grobid.core.document.Document assignGraphicObjectsToFigures
+INFO: Standalone figure on page: 33
+]]></system-err>
+</testsuite>

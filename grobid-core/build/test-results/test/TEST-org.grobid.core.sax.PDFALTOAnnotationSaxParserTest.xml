@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.sax.PDFALTOAnnotationSaxParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:27" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.351">
+  <properties/>
+  <testcase name="testParsing_pdf2XMLAnnotations_ShouldWork" classname="org.grobid.core.sax.PDFALTOAnnotationSaxParserTest" time="0.351"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

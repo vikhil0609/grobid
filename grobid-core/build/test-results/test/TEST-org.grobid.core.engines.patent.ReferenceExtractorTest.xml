@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.engines.patent.ReferenceExtractorTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:01:03" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="28.924">
+  <properties/>
+  <testcase name="extractAllReferencesStringArticles2" classname="org.grobid.core.engines.patent.ReferenceExtractorTest" time="24.74"/>
+  <testcase name="extractAllReferencesStringArticles" classname="org.grobid.core.engines.patent.ReferenceExtractorTest" time="0.026"/>
+  <testcase name="extractAllReferencesXml" classname="org.grobid.core.engines.patent.ReferenceExtractorTest" time="3.494"/>
+  <testcase name="zhProcessing" classname="org.grobid.core.engines.patent.ReferenceExtractorTest" time="0.258"/>
+  <testcase name="extractAllReferencesStringNull" classname="org.grobid.core.engines.patent.ReferenceExtractorTest" time="0.008"/>
+  <testcase name="krProcessing" classname="org.grobid.core.engines.patent.ReferenceExtractorTest" time="0.009"/>
+  <testcase name="jaProcessing" classname="org.grobid.core.engines.patent.ReferenceExtractorTest" time="0.362"/>
+  <testcase name="extractAllReferencesXmlST36" classname="org.grobid.core.engines.patent.ReferenceExtractorTest" time="0.026"/>
+  <system-out><![CDATA[RawBib=That article It refers to Economic Development Quarterly November 2011 25: 353-365
+Start=0   offset=15   end=15
+0 seconds 23 milliseconds
+在本申请的申请人于2008年8月26日提交的申请号为US2008/001534的PCT国际申请中，揭示了一种等截面三角形定向棱镜圆形反光板及由其制成的圆板灯。该圆板灯包括：等截面三角形微棱镜圆形导光板；围绕导光板的散热框，该散热框与导光板之间形成间隙而构成环形灯槽；以及嵌装于环形灯槽内的环形灯组件，该环形灯组件由多个发光二极管(LED)贴片、电阻和线路板构成。该申请的全部内容，通过引用结合于此。
+미국의 애플사의 미국 출원 2012/012710.따라서, 전기화학적 센서들의 제조, 특히 혈액 또는 간질액과 같은 신체 마커들(포도당, 프룩토사민, 하에마토크릿 등)의측정을 위한 전기화학적 센서들을 제조하기 위해 개선된 프로세스가 필요하다. 또한, 합리적인 가격으로 센서 스트립들을제조하기 위한 고속의 예측가능하고 재생가능한 방법에 대한 필요성이 있다. 또한, 각각의 완료된 스트립이 재생가능한 방법으로 체액의 분석 대상물들을 신뢰성있고 예측가능하며 정밀하게 측정하는데 사용될 수 있는 매우 작은 특성들을 갖는센서 스트립들을 고속의 예측가능하고 반복가능한 방법으로 제조할 필요가 있다.
+すなわち、相対的な頻度で、エポキシドをベースとする液体接着剤及び接着結合剤が、例えばＷＯ９８／２１２８７Ａ１。これらの主な使用分野は、硬質装置のみならず適度に柔軟な装置における縁部の結合である。硬化は、熱により又はＵＶ照射により行われる。
+]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:31:01 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:31:01 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:31:01 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:31:01 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:31:01 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+Dec 30, 2021 2:31:02 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading external native sequence labelling library
+Dec 30, 2021 2:31:02 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading Wapiti native library...
+Dec 30, 2021 2:31:02 PM org.grobid.core.main.LibraryLoader load
+INFO: Native library for sequence labelling loaded
+Dec 30, 2021 2:31:02 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: Initiating dictionary
+Dec 30, 2021 2:31:02 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: End of Initialization of dictionary
+Dec 30, 2021 2:31:02 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: Initiating names
+Dec 30, 2021 2:31:02 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: End of initialization of names
+Dec 30, 2021 2:31:02 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: Initiating country codes
+Dec 30, 2021 2:31:02 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: End of initialization of country codes
+Dec 30, 2021 2:31:03 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/patent/citation/model.wapiti (size: 28367896)
+Dec 30, 2021 2:31:08 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/citation/model.wapiti (size: 16865234)
+Dec 30, 2021 2:31:27 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/name/header/model.wapiti (size: 2524527)
+Dec 30, 2021 2:31:27 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/name/citation/model.wapiti (size: 440148)
+Dec 30, 2021 2:31:27 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/date/model.wapiti (size: 102435)
+Dec 30, 2021 2:31:27 PM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesStringArticles2
+INFO: BibDataSet: [BibDataSet [resBib=BiblioItem{submission_date='null', download_date='null', server_date='null', languageUtilities=org.grobid.core.utilities.LanguageUtilities@4d4a5755, item=-1, parentItem=null, ISBN13='null', ISBN10='null', title='That article It refers to Economic Development Quarterly', publisher='null', nbPages=-1, edition='null', language='null', subtitle='null', publication_date='November 2011', normalized_publication_date=11-2011 / November-2011, editors='null', publisher_website='null', serie='null', ISSN='null', ISSNe='null', volume='null', number='null', month='null', support_type='null', version='null', smallImageURL='null', largeImageURL='null', publisherPlace='null', review='null', keywords=null, subjects=null, categories='null', type='null', typeDescription='null', book_type='null', DOI='null', arXivId='null', PMID='null', PMCID='null', PII='null', ark='null', istexId='null', inDOI='null', abstract_='null', authors='null', firstAuthorSurname='null', location='null', bookTitle='null', serieTitle='null', pageRange='353--365', journal='null', volumeBlock='25', institution='null', note='null', affiliation='null', address='null', country='null', town='null', email='null', pubnum='null', keyword='null', phone='null', degree='null', web='null', issue='null', journal_abbrev='null', event='null', abstractHeader='null', day='null', locationPublisher='null', dedication='null', submission='null', english_title='null', url='null', oaUrl='null', uri='null', confidence='null', conf=0.0, e_year='null', e_month='null', e_day='null', s_year='null', s_month='null', s_day='null', d_year='null', d_month='null', d_day='null', a_year='null', a_month='null', a_day='null', authorList=null, editorList=null, affiliationList=null, addressList=null, emailList=null, webList=null, phoneList=null, markers=null, fullAuthors=null, fullEditors=null, fullAffiliations=null, reference='That article It refers to Economic Development Quarterly November 2011 25: 353-365', copyright='null', funding='null', affiliationAddressBlock='null', articleTitle='null', beginPage=-1, endPage=-1, year='null', authorString='null', path='', collaboration='null', postProcessEditors=false, crossrefError=true, normalized_submission_date=null, normalized_download_date=null, originalAffiliation='null', originalAbstract='null', originalTitle='null', originalAuthors='null', originalEditors='null', originalAddress='null', originalNote='null', originalKeyword='null', originalVolumeBlock='null', originalJournal='null', workingGroup='null', documentType='null'}, sourceBib=null, refSymbol=null, rawBib=That article It refers to Economic Development Quarterly November 2011 25: 353-365, confidence=1.0, offsets=[0]]]
+That   count=1   charCpt=4
+    count=1   charCpt=5
+article   count=2   charCpt=12
+    count=2   charCpt=13
+It   count=3   charCpt=15
+    count=3   charCpt=16
+refers   count=4   charCpt=22
+    count=4   charCpt=23
+to   count=5   charCpt=25
+    count=5   charCpt=26
+Economic   count=6   charCpt=34
+    count=6   charCpt=35
+Development   count=7   charCpt=46
+    count=7   charCpt=47
+Quarterly   count=8   charCpt=56
+    count=8   charCpt=57
+November   count=9   charCpt=65
+    count=9   charCpt=66
+2011   count=10   charCpt=70
+    count=10   charCpt=71
+25   count=11   charCpt=73
+:   count=12   charCpt=74
+    count=12   charCpt=75
+353   count=13   charCpt=78
+-   count=14   charCpt=79
+365   count=15   charCpt=82
+Dec 30, 2021 2:31:27 PM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesStringArticles2
+INFO: [0]
+Dec 30, 2021 2:31:27 PM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesStringArticles
+INFO: BibDataSet: [BibDataSet [resBib=BiblioItem{submission_date='null', download_date='null', server_date='null', languageUtilities=org.grobid.core.utilities.LanguageUtilities@4d4a5755, item=-1, parentItem=null, ISBN13='null', ISBN10='null', title='That article refers to Economic Development Quarterly', publisher='null', nbPages=-1, edition='null', language='null', subtitle='null', publication_date='November 2011', normalized_publication_date=11-2011 / November-2011, editors='null', publisher_website='null', serie='null', ISSN='null', ISSNe='null', volume='null', number='null', month='null', support_type='null', version='null', smallImageURL='null', largeImageURL='null', publisherPlace='null', review='null', keywords=null, subjects=null, categories='null', type='null', typeDescription='null', book_type='null', DOI='null', arXivId='null', PMID='null', PMCID='null', PII='null', ark='null', istexId='null', inDOI='null', abstract_='null', authors='null', firstAuthorSurname='null', location='null', bookTitle='null', serieTitle='null', pageRange='353--365', journal='null', volumeBlock='25', institution='null', note='null', affiliation='null', address='null', country='null', town='null', email='null', pubnum='null', keyword='null', phone='null', degree='null', web='null', issue='null', journal_abbrev='null', event='null', abstractHeader='null', day='null', locationPublisher='null', dedication='null', submission='null', english_title='null', url='null', oaUrl='null', uri='null', confidence='null', conf=0.0, e_year='null', e_month='null', e_day='null', s_year='null', s_month='null', s_day='null', d_year='null', d_month='null', d_day='null', a_year='null', a_month='null', a_day='null', authorList=null, editorList=null, affiliationList=null, addressList=null, emailList=null, webList=null, phoneList=null, markers=null, fullAuthors=null, fullEditors=null, fullAffiliations=null, reference=' That article refers to Economic Development Quarterly November 2011 25: 353-365', copyright='null', funding='null', affiliationAddressBlock='null', articleTitle='null', beginPage=-1, endPage=-1, year='null', authorString='null', path='', collaboration='null', postProcessEditors=false, crossrefError=true, normalized_submission_date=null, normalized_download_date=null, originalAffiliation='null', originalAbstract='null', originalTitle='null', originalAuthors='null', originalEditors='null', originalAddress='null', originalNote='null', originalKeyword='null', originalVolumeBlock='null', originalJournal='null', workingGroup='null', documentType='null'}, sourceBib=null, refSymbol=null, rawBib= That article refers to Economic Development Quarterly November 2011 25: 353-365, confidence=1.0, offsets=[167]]]
+Dec 30, 2021 2:31:27 PM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesStringArticles
+INFO: [167]
+Dec 30, 2021 2:31:30 PM org.grobid.core.engines.patent.PatentRefParser processRawRefText
+WARNING: Cannot parse extracted patent number: 80144610801
+Dec 30, 2021 2:31:31 PM org.grobid.core.engines.patent.ReferenceExtractorTest zhProcessing
+INFO: PatentItem: [PatentItem [authority=US, number_wysiwyg=2008001534, number_epodoc=2008001534, kindCode=null, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=28, offset_end=38, offset_raw=0, context=US2008/001534]]
+Dec 30, 2021 2:31:31 PM org.grobid.core.engines.patent.ReferenceExtractorTest krProcessing
+INFO: PatentItem: [PatentItem [authority=US, number_wysiwyg=2012012710, number_epodoc=2012012710, kindCode=null, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=15, offset_end=25, offset_raw=0, context=미국의 애플사의 미국 출원 2012/012710]]
+Dec 30, 2021 2:31:31 PM org.grobid.core.engines.patent.ReferenceExtractorTest jaProcessing
+INFO: PatentItem: [PatentItem [authority=WO, number_wysiwyg=21287, number_epodoc=21287, kindCode=A, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=47, offset_end=52, offset_raw=0, context=WO98／21287A]]
+Dec 30, 2021 2:31:31 PM org.grobid.core.engines.patent.ReferenceExtractorTest extractAllReferencesXmlST36
+INFO: PatentItem: [PatentItem [authority=WO, number_wysiwyg=09937368, number_epodoc=9937368, kindCode=null, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=456, offset_end=463, offset_raw=0, context= WO 09937368], PatentItem [authority=US, number_wysiwyg=6083121, number_epodoc=6083121, kindCode=null, application=false, provisional=false, reissued=false, plant=false, design=false, conf=0.0, confidence=null, offset_begin=548, offset_end=554, offset_raw=0, context= US 6083121]]
+]]></system-err>
+</testsuite>

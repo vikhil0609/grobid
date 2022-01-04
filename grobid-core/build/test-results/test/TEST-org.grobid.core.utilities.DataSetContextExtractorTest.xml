@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.utilities.DataSetContextExtractorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:02:00" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="1.431">
+  <properties/>
+  <testcase name="testRefEscapes" classname="org.grobid.core.utilities.DataSetContextExtractorTest" time="1.431"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

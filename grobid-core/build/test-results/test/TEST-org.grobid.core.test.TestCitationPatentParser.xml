@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.test.TestCitationPatentParser" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:02:30" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="8.103">
+  <properties/>
+  <testcase name="testCitationPatentParserFromText" classname="org.grobid.core.test.TestCitationPatentParser" time="8.103"/>
+  <system-out><![CDATA[text to parse: this patent refers to US-8303618, 	and filed in continuation of US patent 8153667 and  European Patent publications 1000000 and    1000001. 
+context= US-8303618,  and filed in continuation
+offset start/end/raw=25/34/0
+corresponding span: 8303618, 	
+context= US patent 8153667
+offset start/end/raw=74/80/0
+corresponding span: 8153667
+context=  European Patent publications 1000000 and    1000001
+offset start/end/raw=116/123/0
+corresponding span: 1000000 
+context=  European Patent publications 1000000 and    1000001
+offset start/end/raw=131/137/0
+corresponding span: 1000001
+]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:32:29 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:32:29 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:32:29 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:32:29 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:32:29 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+Dec 30, 2021 2:32:29 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading external native sequence labelling library
+Dec 30, 2021 2:32:29 PM org.grobid.core.main.LibraryLoader load
+INFO: Loading Wapiti native library...
+Dec 30, 2021 2:32:29 PM org.grobid.core.main.LibraryLoader load
+INFO: Native library for sequence labelling loaded
+Dec 30, 2021 2:32:29 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: Initiating dictionary
+Dec 30, 2021 2:32:29 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: End of Initialization of dictionary
+Dec 30, 2021 2:32:29 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: Initiating names
+Dec 30, 2021 2:32:29 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: End of initialization of names
+Dec 30, 2021 2:32:30 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: Initiating country codes
+Dec 30, 2021 2:32:30 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: End of initialization of country codes
+Dec 30, 2021 2:32:30 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/patent/citation/model.wapiti (size: 28367896)
+Dec 30, 2021 2:32:37 PM org.grobid.core.jni.WapitiModel init
+INFO: Loading model: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/models/citation/model.wapiti (size: 16865234)
+]]></system-err>
+</testsuite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.utilities.GrobidPropertiesTest" tests="12" skipped="12" failures="0" errors="0" timestamp="2021-12-30T09:02:11" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.001">
+  <properties/>
+  <testcase name="testShouldReturnModelPathWithExtension" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testsetgetProxyHost" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testsetgetProxyPort" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSet_GROBID_HOME_PATH_FileNotExisting_shouldThrowException" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testgetsetNativeLibraryPath" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testgetPdfaltoPath" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNativeLibraryPath" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSet_GROBID_HOME_PATH_NullPath_shouldThrowException" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testsetgetWapitiNbThreads" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testgetLanguageDetectorFactory" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetInstance" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testgetNBThreadsShouldReturnAvailableProcessorsIfZero" classname="org.grobid.core.utilities.GrobidPropertiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

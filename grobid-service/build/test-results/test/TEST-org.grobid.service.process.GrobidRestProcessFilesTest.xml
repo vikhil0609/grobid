@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.service.process.GrobidRestProcessFilesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:05:46" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="1.134">
+  <properties/>
+  <testcase name="dispatchProcessing_selectionCitation_shouldWork" classname="org.grobid.service.process.GrobidRestProcessFilesTest" time="1.114"/>
+  <testcase name="dispatchProcessing_selectionBlock_shouldWork" classname="org.grobid.service.process.GrobidRestProcessFilesTest" time="0.011"/>
+  <testcase name="dispatchProcessing_selectionFigure_shouldWork" classname="org.grobid.service.process.GrobidRestProcessFilesTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

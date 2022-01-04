@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.utilities.counters.impl.CntManagerImplTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:02:15" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.797">
+  <properties/>
+  <testcase name="testGetAllCounters" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.786"/>
+  <testcase name="getCounters_shouldWork" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.001"/>
+  <testcase name="getCounterEnclosingClass_NoEnclosingClass_shouldWork" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.001"/>
+  <testcase name="getCounter_shouldWork" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.001"/>
+  <testcase name="testGetAllCounters_checkGroupName" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.005"/>
+  <testcase name="testGetAllCounters2" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.001"/>
+  <testcase name="getCounterEnclosingClass_EnclosingClass_sholdWork" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.0"/>
+  <testcase name="testCountSingleGroup" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.0"/>
+  <testcase name="testCnt_withClass" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.001"/>
+  <testcase name="testCnt_withExplicitValues" classname="org.grobid.core.utilities.counters.impl.CntManagerImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:32:15 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:32:15 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:32:15 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:32:15 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:32:15 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+]]></system-err>
+</testsuite>

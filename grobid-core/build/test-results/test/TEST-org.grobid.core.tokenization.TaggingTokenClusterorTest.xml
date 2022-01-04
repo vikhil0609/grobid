@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.tokenization.TaggingTokenClusterorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:04:20" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.183">
+  <properties/>
+  <testcase name="testInclusion_present_shouldReturnTrue" classname="org.grobid.core.tokenization.TaggingTokenClusterorTest" time="0.029"/>
+  <testcase name="testCluster_longFile" classname="org.grobid.core.tokenization.TaggingTokenClusterorTest" time="0.135"/>
+  <testcase name="testCluster_mixedBeginningLabels_shouldWork" classname="org.grobid.core.tokenization.TaggingTokenClusterorTest" time="0.016"/>
+  <testcase name="testExclusion_notPresent_shouldReturnTrue" classname="org.grobid.core.tokenization.TaggingTokenClusterorTest" time="0.002"/>
+  <testcase name="testExclusion_shouldReturnFalse" classname="org.grobid.core.tokenization.TaggingTokenClusterorTest" time="0.0"/>
+  <testcase name="testInclusion_notPresent_shouldReturnFalse" classname="org.grobid.core.tokenization.TaggingTokenClusterorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:34:19 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:34:19 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:34:19 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:34:19 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:34:19 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+]]></system-err>
+</testsuite>

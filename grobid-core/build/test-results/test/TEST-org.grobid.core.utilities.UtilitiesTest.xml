@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.utilities.UtilitiesTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:02:02" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.04">
+  <properties/>
+  <testcase name="testStringToBooleanTrue" classname="org.grobid.core.utilities.UtilitiesTest" time="0.024"/>
+  <testcase name="testStringToBooleanBlank" classname="org.grobid.core.utilities.UtilitiesTest" time="0.0"/>
+  <testcase name="testStringToBooleanFalse" classname="org.grobid.core.utilities.UtilitiesTest" time="0.0"/>
+  <testcase name="testStringToBooleanTrue2" classname="org.grobid.core.utilities.UtilitiesTest" time="0.0"/>
+  <testcase name="testMergePositionsOverlap" classname="org.grobid.core.utilities.UtilitiesTest" time="0.012"/>
+  <testcase name="testMergePositions1" classname="org.grobid.core.utilities.UtilitiesTest" time="0.0"/>
+  <testcase name="testMergePositions2" classname="org.grobid.core.utilities.UtilitiesTest" time="0.0"/>
+  <testcase name="testStringToBooleanBlank2" classname="org.grobid.core.utilities.UtilitiesTest" time="0.0"/>
+  <testcase name="testStringToBooleanFalse2" classname="org.grobid.core.utilities.UtilitiesTest" time="0.0"/>
+  <testcase name="testStringToBooleanFalse3" classname="org.grobid.core.utilities.UtilitiesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

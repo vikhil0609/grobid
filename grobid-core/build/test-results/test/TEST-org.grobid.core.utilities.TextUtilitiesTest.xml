@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.utilities.TextUtilitiesTest" tests="45" skipped="45" failures="0" errors="0" timestamp="2021-12-30T09:02:10" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.007">
+  <properties/>
+  <testcase name="testDephynization_NormalCase" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynizationHard_withSpaces" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_sequence3_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testFormat4Digits" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testHTMLEncode_partial" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynization_falseTruncation_shouldReturnSameString" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_trickySequence5_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSuffixes" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_trickySequence8_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_withSpaceBefore_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_sequence2_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynizationHard_citation" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_standard_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetFirstToken_spaceParenthesis" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_usualWordWithSpace_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_falseFriend3_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynization_withSpaces" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_trickySequence4_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testOrcidPattern" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_trickySequence7_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_usualWordWith2Space_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testIsAllUpperCaseOrDigitOrDot" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_withSpacesBefore_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_falseFriend2_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_trickySequence3_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynization_withDigits_shouldNotDephypenize" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_withSpacesAfter_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testHTMLEncode_complete" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_usualWord_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testFormat2Digits" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_sequence_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynizationHard_withoutSpaces" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_withSpaceAfter_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_trickySequence2_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_falseFriend1_shouldReturnTrue" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynization_citation" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWordShape" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynization_withoutSpaces" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPrefix" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDehyphenizationWithLayoutTokens" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynizationHard_withDigits_shouldNotDephypenize" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetLastToken_spaceParenthesis" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_trickySequence1_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoesRequireDehypenisation_trickySequence6_shouldReturnFalse" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDephynization_FalseTruncation_shouldReturnSameString" classname="org.grobid.core.utilities.TextUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.sax.PDFALTOSaxHandlerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:25" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.762">
+  <properties/>
+  <testcase name="testParsing_pdf2XMLwithNoIMages_ShouldWork" classname="org.grobid.core.sax.PDFALTOSaxHandlerTest" time="0.481"/>
+  <testcase name="testParsing_pdf2XMLwithIMages_ShouldWork" classname="org.grobid.core.sax.PDFALTOSaxHandlerTest" time="0.1"/>
+  <testcase name="testParsing_BoldItalic_shouldWork" classname="org.grobid.core.sax.PDFALTOSaxHandlerTest" time="0.059"/>
+  <testcase name="testParsing_shouldWork" classname="org.grobid.core.sax.PDFALTOSaxHandlerTest" time="0.119"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.features.TestFeatures" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:31" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.009">
+  <properties/>
+  <testcase name="testDiscretizeLinearScale_7Nbins_100total_30val" classname="org.grobid.core.features.TestFeatures" time="0.008"/>
+  <testcase name="testDiscretizeLogScale_8Nbins_1total_03val" classname="org.grobid.core.features.TestFeatures" time="0.0"/>
+  <testcase name="testDiscretizeLinearScale_10Nbins_100total_30val" classname="org.grobid.core.features.TestFeatures" time="0.0"/>
+  <testcase name="testDiscretizeLogScale_12Nbins_1total_03val" classname="org.grobid.core.features.TestFeatures" time="0.0"/>
+  <testcase name="testDiscretizeLinearScale_10Nbins_1total_03val" classname="org.grobid.core.features.TestFeatures" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:30:30 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:30:30 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:30 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:30:30 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:30 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+Dec 30, 2021 2:30:30 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: Initiating dictionary
+Dec 30, 2021 2:30:30 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: End of Initialization of dictionary
+Dec 30, 2021 2:30:30 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: Initiating names
+Dec 30, 2021 2:30:30 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: End of initialization of names
+Dec 30, 2021 2:30:31 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: Initiating country codes
+Dec 30, 2021 2:30:31 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: End of initialization of country codes
+]]></system-err>
+</testsuite>

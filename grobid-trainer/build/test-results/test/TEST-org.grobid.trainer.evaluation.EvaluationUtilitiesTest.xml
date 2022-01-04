@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:05:52" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.117">
+  <properties/>
+  <testcase name="testTokenLevelStats4_realCase" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.083"/>
+  <testcase name="testTokenLevelStats4_mixed" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.0"/>
+  <testcase name="testTokenLevelStats2_realCase" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.005"/>
+  <testcase name="testTokenLevelStats_allGood" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.0"/>
+  <testcase name="testTokenLevelStats_mixed" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.0"/>
+  <testcase name="testTokenLevelStats_realCase" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.025"/>
+  <testcase name="testTokenLevelStats2_mixed" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.0"/>
+  <testcase name="testTokenLevelStats_noMatch" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.0"/>
+  <testcase name="testTokenLevelStats3_mixed" classname="org.grobid.trainer.evaluation.EvaluationUtilitiesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

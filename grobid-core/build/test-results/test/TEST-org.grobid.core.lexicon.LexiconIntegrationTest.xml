@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.lexicon.LexiconIntegrationTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:01:34" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="21.744">
+  <properties/>
+  <testcase name="testInEmailPatternLayoutToken" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="1.704"/>
+  <testcase name="testGetPositionInOrganisationNames" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="3.818"/>
+  <testcase name="testGetPositionsInLocation_case2" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="12.672"/>
+  <testcase name="testGetPositionsInLocation_case2_tokenised" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testInJournalNames" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="2.057"/>
+  <testcase name="testGetPositionInPersonTitleNames_tokenised" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.011"/>
+  <testcase name="testInUrlPatternLayoutToken" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testCity" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="1.36"/>
+  <testcase name="testInAbbrevJournalNames_case1" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.0"/>
+  <testcase name="testInAbbrevJournalNames_case2" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.0"/>
+  <testcase name="testInPublisherNamesLayoutToken" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.099"/>
+  <testcase name="testInArXivPatternLayoutToken1" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testInArXivPatternLayoutToken2" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testGetPositionInLocation_case1_tokenised" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testGetPositionInOrgForm" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.002"/>
+  <testcase name="testInAbbrevJournalNamesLayoutToken" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.002"/>
+  <testcase name="testGetPositionInPersonTitleNames" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.0"/>
+  <testcase name="testGetPositionInOrgForm_tokenised" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testGetPositionInOrganisationNames_tokenised" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.0"/>
+  <testcase name="testJournalNames_case1" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testJournalNames_case2" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testInJournalNamesLayoutToken" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testInIdentifierPatternLayoutToken" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testInDOIPatternLayoutToken1" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testInDOIPatternLayoutToken2" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.001"/>
+  <testcase name="testGetPositionInLocation_case1" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.0"/>
+  <testcase name="testInLocationNamesLayoutToken" classname="org.grobid.core.lexicon.LexiconIntegrationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:31:34 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:31:34 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:31:34 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:31:34 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:31:34 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+Dec 30, 2021 2:31:34 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: Initiating dictionary
+Dec 30, 2021 2:31:34 PM org.grobid.core.lexicon.Lexicon initDictionary
+INFO: End of Initialization of dictionary
+Dec 30, 2021 2:31:34 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: Initiating names
+Dec 30, 2021 2:31:34 PM org.grobid.core.lexicon.Lexicon initNames
+INFO: End of initialization of names
+Dec 30, 2021 2:31:35 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: Initiating country codes
+Dec 30, 2021 2:31:35 PM org.grobid.core.lexicon.Lexicon initCountryCodes
+INFO: End of initialization of country codes
+]]></system-err>
+</testsuite>

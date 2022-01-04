@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.data.DateTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:18" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.007">
+  <properties/>
+  <testcase name="testDateMerging_YearMonthDayVsYearMonth_shouldReturnYearMonthDay" classname="org.grobid.core.data.DateTest" time="0.004"/>
+  <testcase name="testToISOString_onlyDay" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testDateMerging_differentDates_yearMonth_shouldReturnOriginal" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testToISOString_completeDate_missingMonth" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testDateMerging_differentDates_year_shouldReturnOriginal" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testDateMerging_differentDates_onlyYear_shouldReturnOriginal" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testDateMerging_differentDates_missingYearFromTarget" classname="org.grobid.core.data.DateTest" time="0.001"/>
+  <testcase name="testToISOString_onlyYear_WithoutPrefix" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testDateMerging_yearVsYearMonth_shouldReturnYearMonth" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testToISOString_onlyYear" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testDateMerging_yearVsYearMonthDay_shouldReturnYearMonthDay" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <testcase name="testDateMerging_yearMonthVsYearMonthDay_shouldReturnYearMonthDay" classname="org.grobid.core.data.DateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

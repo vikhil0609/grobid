@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.engines.TaggingLabelsTestImpl" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:00:47" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.037">
+  <properties/>
+  <testcase name="testModelFor_LabelNoPresentInCache_shouldRemovePrefix" classname="org.grobid.core.engines.TaggingLabelsTestImpl" time="0.034"/>
+  <testcase name="testTaggingLabel_StandardLabelSection" classname="org.grobid.core.engines.TaggingLabelsTestImpl" time="0.0"/>
+  <testcase name="testModelFor_StandardLabelStartingSection" classname="org.grobid.core.engines.TaggingLabelsTestImpl" time="0.001"/>
+  <testcase name="testModelFor_StandardLabelMiddleSection" classname="org.grobid.core.engines.TaggingLabelsTestImpl" time="0.0"/>
+  <testcase name="testTaggingLabel_CustomLabel" classname="org.grobid.core.engines.TaggingLabelsTestImpl" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 30, 2021 2:30:46 PM org.grobid.core.main.GrobidHomeFinder getGrobidHomePathOrLoadFromClasspath
+WARNING: No Grobid property was provided. Attempting to find Grobid home in the current directory...
+Dec 30, 2021 2:30:46 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:46 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: *** USING GROBID HOME: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home
+Dec 30, 2021 2:30:46 PM org.grobid.core.main.GrobidHomeFinder findGrobidHomeOrFail
+WARNING: ***************************************************************
+Dec 30, 2021 2:30:46 PM org.grobid.core.main.GrobidHomeFinder findGrobidConfigOrFail
+WARNING: Grobid config file location was not explicitly set via 'org.grobid.config' system variable, defaulting to: /home/vikhil/quickcompany/grobid/grobid-core/../grobid-home/config/grobid.yaml
+]]></system-err>
+</testsuite>

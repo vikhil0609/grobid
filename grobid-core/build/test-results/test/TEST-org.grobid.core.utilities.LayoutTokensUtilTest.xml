@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grobid.core.utilities.LayoutTokensUtilTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-12-30T09:02:03" hostname="vikhil-HP-Pavilion-Laptop-15-cs2xxx" time="0.117">
+  <properties/>
+  <testcase name="testDoesRequireDehyphenization_usingCoordinates_shouldReturnTrue" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.095"/>
+  <testcase name="testSubList_noEnd" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.012"/>
+  <testcase name="testDoesRequireDehyphenization_composedWords_shouldReturnFalse" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.001"/>
+  <testcase name="testDoesRequireDehyphenization3_composedWords_shouldReturnFalse" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.001"/>
+  <testcase name="testDoesRequireDehyphenization2_shouldReturnTrue" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.001"/>
+  <testcase name="testDoesRequireDehyphenization_shouldReturnTrue" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.001"/>
+  <testcase name="testDoesRequireDehyphenization2_composedWords_shouldReturnFalse" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.001"/>
+  <testcase name="testDoesRequireDehyphenization_hypenAtEndOfString_shouldReturnFalse" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.0"/>
+  <testcase name="testSubList" classname="org.grobid.core.utilities.LayoutTokensUtilTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
